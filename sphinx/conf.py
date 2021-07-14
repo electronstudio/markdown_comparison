@@ -51,6 +51,8 @@ html_theme = 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+latex_show_urls = 'footnote'
+
 pygments_style = 'colorful'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
