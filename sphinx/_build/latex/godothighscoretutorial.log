@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.20)  14 JUL 2021 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.6.20)  14 JUL 2021 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9,8 +9,8 @@ L3 programming layer <2021-01-09> xparse <2020-03-03> (./sphinxmanual.cls
 Document Class: sphinxmanual 2019/12/01 v2.3.0 Document class (Sphinx manual)
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count177
 \c@chapter=\count178
@@ -190,7 +190,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
 \sphinxverbatimsep=\dimen149
 \sphinxverbatimborder=\dimen150
 \sphinxshadowsep=\dimen151
@@ -627,56 +630,98 @@ Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 (./sphinxmessages.sty
 Package: sphinxmessages 2019/01/04 v2.0 Localized LaTeX macros (Sphinx team)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/charter.sty
+Package: charter 2020/03/25 PSNFSS-v9.3 (P.Dyballa) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lato/lato.sty
+Package: lato 2019/06/20 Style file for Lato.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count305
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+Package: inconsolata 2019/05/17 v1.12
+
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+\zifour@ocount=\count306
+)
 \@indexfile=\write4
 \openout4 = `godothighscoretutorial.idx'.
 
 
 Writing index file godothighscoretutorial.idx
-LaTeX Font Info:    Trying to load font information for T1+qtm on input line 69
+LaTeX Font Info:    Trying to load font information for T1+bch on input line 73
 .
-(/usr/share/texmf/tex/latex/tex-gyre/t1qtm.fd
-File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1bch.fd
+File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count305
+\l__color_backend_stack_int=\count307
 \l__pdf_internal_box=\box114
 )
 (./godothighscoretutorial.aux)
 \openout1 = `godothighscoretutorial.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
+\scratchcounter=\count308
 \scratchdimen=\dimen257
 \scratchbox=\box115
-\nofMPsegments=\count307
-\nofMParguments=\count308
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count309
+\nofMPsegments=\count309
+\nofMParguments=\count310
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count311
 \MPscratchDim=\dimen258
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks32
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -686,33 +731,33 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@literalblock=\count312
+\c@literalblock=\count314
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: letterpaper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
 * \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
 * \marginparwidth=36.135pt
-* \marginparsep=11.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -722,7 +767,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 73.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -732,39 +777,63 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count313
+\c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
 
 (./godothighscoretutorial.out) (./godothighscoretutorial.out)
 \@outlinefile=\write5
 \openout5 = `godothighscoretutorial.out'.
 
-Package hyperref Info: Option `pageanchor' set `false' on input line 72.
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 72
-.
+\c@mv@tabular=\count316
+\c@mv@boldtabular=\count317
+Package hyperref Info: Option `pageanchor' set `false' on input line 76.
+LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input li
+ne 76.
 
-(/usr/share/texmf/tex/latex/tex-gyre/t1qhv.fd
-File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
+(/usr/share/texlive/texmf-dist/tex/latex/lato/T1lato-TLF.fd
+File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
+)
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 76.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/it' will be
+(Font)              scaled to size 12.0pt on input line 76.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/it' will be
+(Font)              scaled to size 20.74pt on input line 76.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 20.74pt on input line 76.
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
 
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 76.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 
-] (./godothighscoretutorial.toc)
+]
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 78.
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 78.
+ (./godothighscoretutorial.toc)
 \tf@toc=\write6
 \openout6 = `godothighscoretutorial.toc'.
 
@@ -775,144 +844,350 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 9
-5.
-(/usr/share/texmf/tex/latex/tex-gyre/ts1qtm.fd
-File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 9
+9.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1bch.fd
+File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1
-31.
+<titlescreen.png, id=135, 614.295pt x 360.59718pt>
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 13
+6.
 
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
-LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 132.
-<gamescreen_nodes.png, id=135, 168.63pt x 104.64093pt>
-File: gamescreen_nodes.png Graphic file (type png)
-<use gamescreen_nodes.png>
-Package pdftex.def Info: gamescreen_nodes.png  used on input line 168.
-(pdftex.def)             Requested size: 168.62958pt x 104.64066pt.
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 136.
+File: titlescreen.png Graphic file (type png)
+<use titlescreen.png>
+Package pdftex.def Info: titlescreen.png  used on input line 136.
+(pdftex.def)             Requested size: 226.48395pt x 132.94566pt.
+<titlescreen_nodes.png, id=136, 168.63pt x 143.78719pt>
+File: titlescreen_nodes.png Graphic file (type png)
+<use titlescreen_nodes.png>
+Package pdftex.def Info: titlescreen_nodes.png  used on input line 144.
+(pdftex.def)             Requested size: 168.62958pt x 143.78683pt.
  [1
 
-]
-<gamescreen.png, id=145, 618.81187pt x 183.68625pt>
+ <./titlescreen.png (PNG copy)>]
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 6.0pt on input line 150.
+LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
+(Font)              scaled to size 12.0pt on input line 151.
+<gamescreen_nodes.png, id=144, 168.63pt x 104.64093pt>
+File: gamescreen_nodes.png Graphic file (type png)
+<use gamescreen_nodes.png>
+Package pdftex.def Info: gamescreen_nodes.png  used on input line 187.
+(pdftex.def)             Requested size: 168.62958pt x 104.64066pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2 <./titlescreen_nodes.png (PNG copy)> <./gamescreen_nodes.png (PNG copy)>]
+<gamescreen.png, id=153, 618.81187pt x 183.68625pt>
 File: gamescreen.png Graphic file (type png)
 <use gamescreen.png>
-Package pdftex.def Info: gamescreen.png  used on input line 196.
-(pdftex.def)             Requested size: 469.77315pt x 139.44882pt.
-<newscene.png, id=146, 231.264pt x 65.7657pt>
+Package pdftex.def Info: gamescreen.png  used on input line 215.
+(pdftex.def)             Requested size: 452.98474pt x 134.46541pt.
+<newscene.png, id=154, 231.264pt x 65.7657pt>
 File: newscene.png Graphic file (type png)
 <use newscene.png>
-Package pdftex.def Info: newscene.png  used on input line 209.
+Package pdftex.def Info: newscene.png  used on input line 228.
 (pdftex.def)             Requested size: 231.26343pt x 65.76553pt.
- [2 <./gamescreen_nodes.png (PNG copy)> <./gamescreen.png (PNG copy)>]
-<userinterface.png, id=154, 193.47281pt x 255.95625pt>
+<userinterface.png, id=156, 193.47281pt x 255.95625pt>
 File: userinterface.png Graphic file (type png)
 <use userinterface.png>
-Package pdftex.def Info: userinterface.png  used on input line 221.
+Package pdftex.def Info: userinterface.png  used on input line 240.
 (pdftex.def)             Requested size: 193.47234pt x 255.95561pt.
- [3 <./newscene.png> <./userinterface.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3 <./gamescreen.png (PNG copy)> <./newscene.png>]
 <gameover.png, id=170, 779.91376pt x 437.38406pt>
 File: gameover.png Graphic file (type png)
 <use gameover.png>
-Package pdftex.def Info: gameover.png  used on input line 302.
-(pdftex.def)             Requested size: 469.74886pt x 263.44688pt.
- [4 <./gameover.png (PNG copy)>] [5]
-<tablenames.png, id=190, 938.00438pt x 542.025pt>
+Package pdftex.def Info: gameover.png  used on input line 321.
+(pdftex.def)             Requested size: 452.96913pt x 254.02997pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4 <./userinterface.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5 <./gameover.png (PNG copy)>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+<tablenames.png, id=197, 938.00438pt x 542.025pt>
 File: tablenames.png Graphic file (type png)
 <use tablenames.png>
-Package pdftex.def Info: tablenames.png  used on input line 532.
-(pdftex.def)             Requested size: 222.37749pt x 128.50069pt.
-<tablescores.png, id=191, 938.00438pt x 542.025pt>
+Package pdftex.def Info: tablenames.png  used on input line 551.
+(pdftex.def)             Requested size: 211.7966pt x 122.38043pt.
+<tablescores.png, id=198, 938.00438pt x 542.025pt>
 File: tablescores.png Graphic file (type png)
 <use tablescores.png>
-Package pdftex.def Info: tablescores.png  used on input line 532.
-(pdftex.def)             Requested size: 222.37749pt x 128.50069pt.
+Package pdftex.def Info: tablescores.png  used on input line 551.
+(pdftex.def)             Requested size: 211.7966pt x 122.38043pt.
 
-Overfull \hbox (1.66998pt too wide) in paragraph at lines 531--533
+Overfull \hbox (2.532pt too wide) in paragraph at lines 550--552
 [][] [] 
  []
 
-[6 <./tablenames.png (PNG copy)> <./tablescores.png (PNG copy)>]
-<autoload.png, id=205, 526.96875pt x 359.84438pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <./tablenames.png (PNG copy)> <./tablescores.png (PNG copy)>]
+<autoload.png, id=211, 526.96875pt x 359.84438pt>
 File: autoload.png Graphic file (type png)
 <use autoload.png>
-Package pdftex.def Info: autoload.png  used on input line 587.
-(pdftex.def)             Requested size: 311.32713pt x 212.60283pt.
- [7 <./autoload.png (PNG copy)>] [8] [9] [10]
+Package pdftex.def Info: autoload.png  used on input line 606.
+(pdftex.def)             Requested size: 296.51395pt x 202.48334pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./autoload.png (PNG copy)>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12
+
+]
 Chapter 2.
-<server1.png, id=234, 457.71pt x 174.6525pt>
+<server1.png, id=245, 457.71pt x 174.6525pt>
 File: server1.png Graphic file (type png)
 <use server1.png>
-Package pdftex.def Info: server1.png  used on input line 818.
-(pdftex.def)             Requested size: 375.80544pt x 143.40518pt.
-<server2.png, id=235, 238.64156pt x 176.15813pt>
+Package pdftex.def Info: server1.png  used on input line 839.
+(pdftex.def)             Requested size: 362.37569pt x 138.28043pt.
+<server2.png, id=246, 238.64156pt x 176.15813pt>
 File: server2.png Graphic file (type png)
 <use server2.png>
-Package pdftex.def Info: server2.png  used on input line 830.
-(pdftex.def)             Requested size: 281.85587pt x 208.06906pt.
-<dreamlo1.png, id=237, 915.42pt x 687.31781pt>
+Package pdftex.def Info: server2.png  used on input line 851.
+(pdftex.def)             Requested size: 271.7835pt x 200.63417pt.
+[13 <./server1.png> <./server2.png>]
+<dreamlo1.png, id=254, 915.42pt x 687.31781pt>
 File: dreamlo1.png Graphic file (type png)
 <use dreamlo1.png>
-Package pdftex.def Info: dreamlo1.png  used on input line 861.
-(pdftex.def)             Requested size: 328.82707pt x 246.88887pt.
-[11
+Package pdftex.def Info: dreamlo1.png  used on input line 882.
+(pdftex.def)             Requested size: 317.07614pt x 238.06879pt.
+<dreamlo2.png, id=255, 915.42pt x 687.31781pt>
+File: dreamlo2.png Graphic file (type png)
+<use dreamlo2.png>
+Package pdftex.def Info: dreamlo2.png  used on input line 892.
+(pdftex.def)             Requested size: 317.07614pt x 238.06879pt.
 
- <./server1.png>] [12 <./server2.png> <./dreamlo1.png>]
-<dreamlo3.png, id=250, 766.36313pt x 356.0803pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14 <./dreamlo1.png>]
+<dreamlo3.png, id=262, 766.36313pt x 356.0803pt>
 File: dreamlo3.png Graphic file (type png)
 <use dreamlo3.png>
-Package pdftex.def Info: dreamlo3.png  used on input line 890.
-(pdftex.def)             Requested size: 352.31625pt x 163.70113pt.
-<dreamlo4.png, id=251, 595.47469pt x 329.73187pt>
+Package pdftex.def Info: dreamlo3.png  used on input line 920.
+(pdftex.def)             Requested size: 339.72592pt x 157.84941pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15 <./dreamlo2.png> <./dreamlo3.png>]
+<dreamlo4.png, id=271, 595.47469pt x 329.73187pt>
 File: dreamlo4.png Graphic file (type png)
 <use dreamlo4.png>
-Package pdftex.def Info: dreamlo4.png  used on input line 910.
-(pdftex.def)             Requested size: 352.31625pt x 195.08852pt.
- [13 <./dreamlo3.png> <./dreamlo4.png>] [14]
+Package pdftex.def Info: dreamlo4.png  used on input line 940.
+(pdftex.def)             Requested size: 339.72592pt x 188.11514pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <./dreamlo4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 999--1004
+[]\T1/bch/m/n/12 In your web browser, open the URL that you used pre-vi-ously
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 999--1004
+\T1/bch/m/n/12 to get the high s core ta-ble in JSON for-mat. (For me this is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 999--1004
+\T1/bch/m/it/12 http://dreamlo.com/lb/60d206118b114c4ca743/json \T1/bch/m/n/12 
+but your pub-lic code
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
 File: tablenames.png Graphic file (type png)
 <use tablenames.png>
-Package pdftex.def Info: tablenames.png  used on input line 1078.
-(pdftex.def)             Requested size: 234.8775pt x 135.72095pt.
+Package pdftex.def Info: tablenames.png  used on input line 1108.
+(pdftex.def)             Requested size: 226.48395pt x 130.86609pt.
 File: tablescores.png Graphic file (type png)
 <use tablescores.png>
-Package pdftex.def Info: tablescores.png  used on input line 1078.
-(pdftex.def)             Requested size: 234.8775pt x 135.72095pt.
+Package pdftex.def Info: tablescores.png  used on input line 1108.
+(pdftex.def)             Requested size: 226.48395pt x 130.86609pt.
 
-Overfull \hbox (1.66998pt too wide) in paragraph at lines 1077--1079
+Overfull \hbox (2.532pt too wide) in paragraph at lines 1107--1109
 [][] [] 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+txtt on input line 
-1117.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txtt.fd
-File: ts1txtt.fd 2000/12/15 v3.1
-) [15] [16]
-(./godothighscoretutorial.ind) [17] (./godothighscoretutorial.aux)
+LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 1
+147.
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 1147.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+Overfull \vbox (1.72305pt too high) detected at line 1269
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19] (./godothighscoretutorial.ind)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20] (./godothighscoretutorial.aux)
 Package rerunfilecheck Info: File `godothighscoretutorial.out' has not changed.
 
 (rerunfilecheck)             Checksum: D65A48D97C494F31B7EC1520DED8388D;3596.
  ) 
 Here is how much of TeX's memory you used:
- 14230 strings out of 479304
- 204279 string characters out of 5869779
- 575962 words of memory out of 5000000
- 30941 multiletter control sequences out of 15000+600000
- 451624 words of font info for 67 fonts, out of 8000000 for 9000
+ 14921 strings out of 479304
+ 217646 string characters out of 5869779
+ 585770 words of memory out of 5000000
+ 31571 multiletter control sequences out of 15000+600000
+ 627460 words of font info for 89 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 83i,12n,88p,491b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf/fonts/e
-nc/dvips/tex-gyre/q-ts1.enc}</usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.
-pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fo
-nts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyr
-e/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb>
-Output written on godothighscoretutorial.pdf (21 pages, 577193 bytes).
+ 83i,12n,88p,491b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/s
+hare/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{/usr/share/tex
+live/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/lato/a_cl4kdn.enc}</usr/share/texlive/texmf-dist/fonts/type1/public
+/inconsolata/Inconsolata-zi4b.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstr
+ea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/chart
+er/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on godothighscoretutorial.pdf (24 pages, 810098 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 103 named destinations out of 1000 (max. 500000)
- 254 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -30,16 +30,12 @@ Our game only has 2 scenes:
 -  *game.tscn*
 
 .. figure:: titlescreen.png
-   :alt: The player presses a button on the title screen to switch to
-   the game screen.
-   :width: 50.0%
+   :width: 50%
 
    The player presses a button on the title screen to switch to the game
    screen.
 
 .. figure:: titlescreen_nodes.png
-   :alt: You can investigate the nodes used make the TitleScreen on your
-   own.
 
    You can investigate the nodes used make the TitleScreen on your own.
 
@@ -362,7 +358,7 @@ To fix this, we can store the scores in a file on the computer’s disk.
 We will create separate functions for loading and saving the scores.
 Edit **globals.gd** and add this code to the bottom:
 
-.. code:: gdscript
+.. code-block:: gdscript
 
    func _init():
       load_scores()
@@ -389,7 +385,8 @@ we print an error, but this is OK, because it will be created when we
 save the scores. To do this, edit **gameover.gd**, and insert the one
 new line highlighted below:
 
-::
+.. code-block:: gdscript
+   :emphasize-lines: 4
 
    func _on_LineEdit_text_entered(new_text):
        Globals.scores.append(Globals.score)
@@ -539,9 +536,6 @@ In your web browser, go to the website
 Click **Get Yours Now** button.
 
 .. figure:: dreamlo2.png
-   :alt: You will be given a private URL. Copy and paste it into a
-   document, or add it to your bookmarks. You must not lose it and you
-   must not give it to anyone else.
    :width: 70.0%
 
    You will be given a private URL. Copy and paste it into a document,
