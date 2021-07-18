@@ -3,6 +3,7 @@ Richard Smith
 :source-highlighter: rouge
 :doctype: book
 :toc:
+:media: prepress
 
 == High Score Tables
 
@@ -10,7 +11,7 @@ This tutorial will show you how to add a locally saved high score table
 to your game. (The next tutorial will show you how to add an online
 leaderboard to your game.)
 
-If you already have a game you should be able to apply the tutorial to
+NOTE: If you already have a game you should be able to apply the tutorial to
 it. Alternatively, I have provided a very simple game which you can
 download, import into Godot and use.
 
@@ -23,20 +24,22 @@ starter project]
 
 === The simple game
 
+[sidebar]
 Before we start adding anything we will look at what the simple game
 already has and how it works. (This section is for information; you
 don’t have to do anything until the next section.)
+
 
 Our game only has 2 scenes:
 
 * _title_screen.tscn_
 * _game.tscn_
 
-image:titlescreen.png[The player presses a button on the title screen to
-switch to the game screen.,scaledwidth=50.0%]
+.The player presses a button on the title screen to switch to the game screen.
+image::titlescreen.png[scaledwidth=50.0%]
 
-image:titlescreen_nodes.png[You can investigate the nodes used make the
-TitleScreen on your own.]
+.You can investigate the nodes used make the TitleScreen on your own
+image::titlescreen_nodes.png[]
 
 The code for this is very simple:
 
@@ -59,7 +62,8 @@ The game scene has only 4 nodes:
 * A timer
 * An icon (sprite)
 
-image:gamescreen_nodes.png[game scene nodes]
+.game scene nodes
+image::gamescreen_nodes.png[]
 
 The code simply counts down the timer every second, and increases the
 score every time a key is pressed:
@@ -82,7 +86,8 @@ func _unhandled_input(event):
         $icon.position.y = score * 5
 ----
 
-image:gamescreen.png[The game screen]
+.The game screen
+image::gamescreen.png[]
 
 === Game Over Screen
 
@@ -93,7 +98,8 @@ We need somewhere for the player to enter his name, so let’s make a
 . Create a new scene. image:newscene.png[newscene]
 . Select _User Interface_ for the root node.
 
-image:userinterface.png[Select User Interface for root node]
+.Select User Interface for root node
+image::userinterface.png[]
 
 [arabic, start=3]
 . Right click the root node *Control* and rename it to `gameover`.
@@ -466,13 +472,15 @@ computers, so instead you need to store all the scores on a computer on
 the Internet. This is called a _server_. Then as well as saving your
 score locally, you also send it to the server, like this:
 
-image:server1.png[Sending the high score,scaledwidth=80.0%]
+.Sending the high score
+image::server1.png[scaledwidth=80.0%]
 
 The server saves your score along with all the scores of everybody else.
 Then when you want to display the scores, you send a request to the
 server to retrieve them:
 
-image:server2.png[Requesting the high scores,scaledwidth=60.0%]
+.Requesting the high score
+image::server2.png[,scaledwidth=60.0%]
 
 Usually I would not suggest relying on third party servers for your
 game.
@@ -492,13 +500,12 @@ _dreamlo_).
 
 In your web browser, go to the website http://dreamlo.com/[dreamlo.com].
 
-image:dreamlo1.png[dreamlo website,scaledwidth=70.0%]
+image::dreamlo1.png[dreamlo website,scaledwidth=70.0%]
 
 Click *Get Yours Now* button.
 
-image:dreamlo2.png[You will be given a private URL. Copy and paste it
-into a document, or add it to your bookmarks. You must not lose it and
-you must not give it to anyone else.,scaledwidth=70.0%]
+.You will be given a private URL. Copy and paste it into a document, or add it to your bookmarks. You must not lose it and you must not give it to anyone else.
+image::dreamlo2.png[scaledwidth=70.0%]
 
 In Godot, open *globals.gd*. Add these two variables, but *rather than
 using my values, copy and paste the codes given to you on the left side
@@ -520,7 +527,7 @@ private dreamlo page with the correct code already filled in)
 http://dreamlo.com/lb/Sv3NeBzS0016IwMfZjGudTESQhkHwEpQ/add/Carmine/100
 ....
 
-image:dreamlo3.png[image,scaledwidth=75.0%]
+image::dreamlo3.png[image,scaledwidth=75.0%]
 
 You should get a response that says _OK_ or similar. You have submitted
 the score of 100 for player Carmine. Go ahead and submit a few more
@@ -536,7 +543,7 @@ http://dreamlo.com/lb/60d341098f40bb114c4e34b2/json
 
 You will get a response that looks something like this:
 
-image:dreamlo4.png[image,scaledwidth=75.0%]
+image::dreamlo4.png[scaledwidth=75.0%]
 
 Here it is with nicer indentation:
 
@@ -635,8 +642,8 @@ file from the FileSystem (bottom left of screen) into the *[empty]* font
 field.
 . Position the two labels side by side like this:
 
-image:tablenames.png[image,scaledwidth=50.0%]
-image:tablescores.png[image,scaledwidth=50.0%]
+image::tablenames.png[scaledwidth=50.0%]
+image::tablescores.png[scaledwidth=50.0%]
 
 [arabic, start=7]
 . Right click on the root node and add a child node. Choose

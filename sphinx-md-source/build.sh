@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 make latexpdf
-cp _build/latex/godothighscoretutorial.pdf ../sphinx-md-source.pdf
+cp _build/latex/godothighscoretutorial.pdf ../pandown-sphinx.pdf

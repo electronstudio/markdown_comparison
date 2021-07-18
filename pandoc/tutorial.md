@@ -23,6 +23,15 @@ header-includes:
 ...
 # High Score Tables
 
+
+::: Warning ::::::
+This is a warning.
+
+::: Danger
+This is a warning within a warning.
+:::
+::::::::::::::::::
+
 This tutorial will show you how to add a locally saved high score table to your game. (The next
 tutorial will show you how to add an online leaderboard to your game.) 
 

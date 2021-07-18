@@ -1,12 +1,29 @@
 extends: default
+font:
+  catalog:
+    merge: true
+    Lato:
+      normal: /usr/share/fonts/truetype/lato/Lato-Regular.ttf
+      italic: /usr/share/fonts/truetype/lato/Lato-Italic.ttf
+      bold: /usr/share/fonts/truetype/lato/Lato-Bold.ttf
+      bold_italic: /usr/share/fonts/truetype/lato/Lato-BoldItalic.ttf
+    Charter:
+      normal: /usr/share/fonts/truetype/charter/Charter Regular.ttf
+      italic: /usr/share/fonts/truetype/charter/Charter Italic.ttf
+      bold: /usr/share/fonts/truetype/charter/Charter Bold.ttf
+      bold_italic: /usr/share/fonts/truetype/charter/Charter Bold Italic.ttf
 base_border_color: BBBBBB
 base_font_color: 000000
 role_subtitle_font_color: 666666
-link_font_color: ~
+#link_font_color: ~
 literal_font_color: ~
 mark_background_color: CCCCCC
 menu_caret_content: " <font size=\"1.15em\">\u203a</font> "
 heading_font_color: $base_font_color
+heading_font_family: Lato
+heading_h2_align: right
+heading_h2_text_transform: uppercase
+heading_h2_line_height: 2
 title_page_title_font_color: $role_subtitle_font_color
 abstract_font_color: 2C2C2C
 abstract_title_font_color: $heading_font_color
@@ -22,8 +39,13 @@ sidebar_title_font_color: $heading_font_color
 thematic_break_border_color: $base_border_color
 toc_dot_leader_font_color: ~
 footer_border_color: CCCCCC
+image_align: center
+caption_align: center
 base:
-  font-family: Times-Roman
-  font-size: 15
+  font-family: Charter
+  font-size: 12
+  line-height: 1.5
 page:
   margin: [1in, 1in, 1in, 1in]
+  margin-inner: 1in
+  margin-outer: 1in

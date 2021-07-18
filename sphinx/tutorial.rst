@@ -5,9 +5,10 @@ This tutorial will show you how to add a locally saved high score table
 to your game. (The next tutorial will show you how to add an online
 leaderboard to your game.)
 
-If you already have a game you should be able to apply the tutorial to
-it. Alternatively, I have provided a very simple game which you can
-download, import into Godot and use.
+.. note::
+    If you already have a game you should be able to apply the tutorial to
+    it. Alternatively, I have provided a very simple game which you can
+    download, import into Godot and use.
 
 Links:
 
@@ -19,9 +20,11 @@ Links:
 The simple game
 ---------------
 
-Before we start adding anything we will look at what the simple game
-already has and how it works. (This section is for information; you
-don’t have to do anything until the next section.)
+.. sidebar::
+
+   Before we start adding anything we will look at what the simple game
+   already has and how it works. (This section is for information; you
+   don’t have to do anything until the next section.)
 
 Our game only has 2 scenes:
 
