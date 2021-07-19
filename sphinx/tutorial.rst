@@ -5,26 +5,26 @@ This tutorial will show you how to add a locally saved high score table
 to your game. (The next tutorial will show you how to add an online
 leaderboard to your game.)
 
-.. note::
-    If you already have a game you should be able to apply the tutorial to
-    it. Alternatively, I have provided a very simple game which you can
-    download, import into Godot and use.
+.. sidebar::
+   If you already have a game you should be able to apply the tutorial to
+   it. Alternatively, I have provided a very simple game which you can
+   download, import into Godot and use.
 
-Links:
+   Links:
 
--  `View finished
-   project <https://electronstudio.github.io/godot_high_scores_tutorial>`__
--  `Download starter
-   project <https://electronstudio.github.io/godot_high_scores_tutorial/godot_high_scores_starter_version.zip>`__
+   -  `View finished
+      project <https://electronstudio.github.io/godot_high_scores_tutorial>`__
+   -  `Download starter
+      project <https://electronstudio.github.io/godot_high_scores_tutorial/godot_high_scores_starter_version.zip>`__
 
 The simple game
 ---------------
 
-.. sidebar::
+Before we start adding anything we will look at what the simple game already has and how it works.
 
-   Before we start adding anything we will look at what the simple game
-   already has and how it works. (This section is for information; you
-   don’t have to do anything until the next section.)
+.. note::
+   This section is for information; you
+   don’t have to do anything until the next section.
 
 Our game only has 2 scenes:
 
@@ -44,7 +44,7 @@ Our game only has 2 scenes:
 
 The code for this is very simple:
 
-.. code:: gdscript
+.. code-block:: gdscript
 
    func _on_QuitButton_pressed():
        get_tree().quit()
@@ -118,7 +118,7 @@ We need somewhere for the player to enter his name, so let’s make a
       into the **[empty]** font field.
    -  In the Inspector, enter into the *Text* field
 
-::
+.. code:: none
 
    GAMEOVER
 
@@ -343,13 +343,12 @@ Menu navigation
 8. Well done! You now have a (sort of) working high score table! Try it
    out.
 
-Challenge: fix the bug
-----------------------
+.. sidebar:: Challenge: fix the bug
 
-We have accidentally introduced a bug into the game that happens when
-you play two or more games in a row without quitting. What is the bug?
+   We have accidentally introduced a bug into the game that happens when
+   you play two or more games in a row without quitting. What is the bug?
 
-How can you fix it?
+   How can you fix it?
 
 Saving files
 ------------
@@ -399,28 +398,28 @@ new line highlighted below:
 
 Run the game and check your scores load and save.
 
-Challenge: Default scores
--------------------------
+.. sidebar:: Challenge: Default scores
 
-The first time you play the game, the score table is empty. Could you
-add some default scores in the code to fill it?
+   The first time you play the game, the score table is empty. Could you
+   add some default scores in the code to fill it?
 
-Advanced Challenge (optional!): Improve the organisation of the code.
----------------------------------------------------------------------
+.. sidebar:: Advanced Challenge: Improve the organisation of the code.
 
-Change the above function to be:
+   Change the above function to be:
 
-.. code:: gdscript
+   .. code:: gdscript
 
-   func _on_LineEdit_text_entered(new_text):
-       Globals.add_score(new_text)
-       get_tree().change_scene("res://score_table.tscn")
+      func _on_LineEdit_text_entered(new_text):
+          Globals.add_score(new_text)
+          get_tree().change_scene("res://score_table.tscn")
 
-Then write the ``add_score`` function in ``globals.gd`` to make this
-work.
+   Then write the ``add_score`` function in ``globals.gd`` to make this
+   work.
 
-(If you attempt this challenge but do not complete it, remember to undo
-the changes you made to the *on_LineEdit_text_entered* function.)
+   .. warning::
+
+      If you attempt this challenge but do not complete it, remember to undo the
+      changes you made to the *on_LineEdit_text_entered* function.
 
 Sorting the scores
 ------------------
@@ -457,7 +456,8 @@ Add this to the bottom of **globals.gd**:
 Edit the **save_scores** function so that it sorts every time it saves
 (new line highlighted)
 
-::
+.. code-block::
+   :emphasize-lines: 2
 
    func save_scores():
        bubble_sort()
@@ -467,15 +467,16 @@ Edit the **save_scores** function so that it sorts every time it saves
        file.store_var(scores)
        file.close()
 
-Challenge: Sorting
-------------------
+.. sidebar:: Challenge
 
-This bubble sort is not optimized. Make it ``return`` as soon as it
-completes a pass with no swaps.
+   This bubble sort is not optimized. Make it ``return`` as soon as it
+   completes a pass with no swaps.
 
-Implement some better sorting algorithms, such as `Merge
-Sort <https://en.wikipedia.org/wiki/Merge_sort>`__ and `Insertion
-Sort <https://en.wikipedia.org/wiki/Insertion_sort>`__
+.. sidebar:: Advanced Challenge
+
+   Implement some better sorting algorithms, such as `Merge
+   Sort <https://en.wikipedia.org/wiki/Merge_sort>`__ and `Insertion
+   Sort <https://en.wikipedia.org/wiki/Insertion_sort>`__
 
 More things to try
 ------------------
@@ -486,6 +487,7 @@ Display ranking number 1, 2, 3, etc next to the names.
 
 What do you do when there are too many scores to fit on the screen?
 Delete the lowest ones? Or provide buttons to scroll up and down?
+
 
 Online leaderboards
 ===================
@@ -514,6 +516,8 @@ server to retrieve them:
 
 Usually I would not suggest relying on third party servers for your
 game.
+
+.. sidebar::
 
    If you use a third party leaderboard service, what will the effect on
    your game be if it is not running? Do you think it will still be
@@ -561,7 +565,7 @@ Copy this URL into a new web browser window and press enter, but replace
 the code with your *private* code. (You can see this example on your
 private dreamlo page with the correct code already filled in)
 
-::
+.. code:: none
 
    http://dreamlo.com/lb/Sv3NeBzS0016IwMfZjGudTESQhkHwEpQ/add/Carmine/100
 
@@ -613,7 +617,8 @@ Submitting scores programmatically
    **on_LineEdit_text_entered** function so it looks like this (3 new
    lines):
 
-::
+.. code-block::
+   :emphasize-lines: 5-7
 
    func _on_LineEdit_text_entered(new_text):
        Globals.scores.append(Globals.score)
@@ -744,7 +749,7 @@ us.
 Error handling
 --------------
 
-When you run this it may work, but it may also crash.
+.. NOTE:: When you run this code it may work, but it may also crash.
 
 Why? Because there are several possible responses the server could send
 you, and you don’t know which you are going to get.
@@ -788,26 +793,25 @@ Edit the function so that it looks like this:
            $Names.text += i["name"] + '\n'
            $Scores.text += i["score"] + '\n'
 
-Challenges
-----------
+.. sidebar:: Challenges
 
-Show the user what is going on. Display **Downloading Scores** when the
-scene loads, and then display **Scores Downloaded** when they have
-downloaded successfully. If one of the errors happens, display what the
-error is.
+   * Show the user what is going on. Display **Downloading Scores** when the
+     scene loads, and then display **Scores Downloaded** when they have
+     downloaded successfully. If one of the errors happens, display what the
+     error is.
 
-Handle the case when the table contains only one score. Hint:
+   *  Handle the case when the table contains only one score. Hint:
 
-.. code:: gdscript
+      .. code:: gdscript
 
-   if scores is Dictionary:
-       $Names.text == scores["name"]
+         if scores is Dictionary:
+             $Names.text == scores["name"]
 
-Add additional error checks. For example, what would happen if the JSON
-did not contain an entry for ``leaderboard``?
+   *  Add additional error checks. For example, what would happen if the JSON
+      did not contain an entry for ``leaderboard``?
 
-Dreamlo also allows a time to be submitted along with the score. This is
-useful for games with a timer. Submit times for your game.
+   *  Dreamlo also allows a time to be submitted along with the score. This is
+      useful for games with a timer. Submit times for your game.
 
 .. |newscene| image:: newscene.png
 .. |image1| image:: tablenames.png
